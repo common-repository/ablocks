@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/carousel",
+  "version": "0.1.0",
+  "title": "Carousel",
+  "category": "ablocks",
+  "description": "Make attractive image presentation with carousel",
+  "example": {},
+  "supports": {
+    "html": true,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-swiper-style",
+    "ablocks-animate-style",
+    "ablocks-common-style",
+    "file:./style.css"
+  ],
+  "editorScript": [
+    "ablocks-swiper-script",
+    "ablocks-common-script",
+    "file:./view.js"
+  ]
+}

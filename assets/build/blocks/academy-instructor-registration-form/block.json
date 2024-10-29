@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/academy-instructor-registration-form",
+  "version": "0.1.0",
+  "title": "Academy Instructor Registration Form",
+  "category": "academy",
+  "description": "Showcase Academy LMS instructor registration form attractively.",
+  "keywords": [
+    "ablocks",
+    "academy",
+    "academy lms",
+    "registration",
+    "registration form",
+    "instructor"
+  ],
+  "example": {},
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-animate-style",
+    "ablocks-common-style"
+  ],
+  "editorScript": [
+    "ablocks-common-script"
+  ]
+}

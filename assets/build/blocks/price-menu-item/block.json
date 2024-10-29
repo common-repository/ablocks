@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/price-menu-item",
+  "version": "0.1.0",
+  "title": "Price Menu Item",
+  "category": "ablocks",
+  "description": "Craft beautiful, fully customizable price-menu-item.",
+  "example": {},
+  "parent": [
+    "ablocks/price-menu"
+  ],
+  "supports": {
+    "html": true,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-animate-style",
+    "ablocks-common-style",
+    "file:./style.css"
+  ],
+  "editorScript": [
+    "ablocks-common-script"
+  ]
+}

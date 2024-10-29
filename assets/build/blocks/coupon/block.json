@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/coupon",
+  "version": "0.1.0",
+  "title": "Coupon",
+  "category": "ablocks",
+  "description": "Add clickable coupons that copy codes instantly.",
+  "keywords": [
+    "ablocks",
+    "coupon",
+    "coupon-code",
+    "discount",
+    "offer",
+    "promo",
+    "promotion"
+  ],
+  "example": {},
+  "supports": {
+    "html": true,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-animate-style",
+    "ablocks-common-style",
+    "file:./style.css"
+  ],
+  "editorScript": [
+    "ablocks-common-script",
+    "file:./view.js"
+  ]
+}

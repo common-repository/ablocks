@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/countdown",
+  "version": "0.1.0",
+  "title": "Countdown",
+  "category": "ablocks",
+  "description": "Add countdown timers for events.",
+  "keywords": [
+    "ablocks",
+    "countdown",
+    "count",
+    "notice"
+  ],
+  "example": {},
+  "supports": {
+    "html": true,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-animate-style",
+    "ablocks-common-style",
+    "file:./style.css"
+  ],
+  "editorScript": [
+    "ablocks-common-script",
+    "file:./view.js"
+  ]
+}

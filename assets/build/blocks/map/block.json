@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/map",
+  "version": "0.1.0",
+  "title": "Map",
+  "category": "ablocks",
+  "description": "Show google map or OpenStreet map",
+  "example": {},
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-leaflet-style",
+    "ablocks-animate-style",
+    "ablocks-common-style",
+    "file:./style.css"
+  ],
+  "editorScript": [
+    "ablocks-leaflet-script",
+    "ablocks-common-script",
+    "file:./view.js"
+  ]
+}

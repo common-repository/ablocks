@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/counter",
+  "version": "0.1.0",
+  "title": "Counter",
+  "category": "ablocks",
+  "description": "Display animated counters for stats.",
+  "keywords": [
+    "ablocks",
+    "counter",
+    "fun fact",
+    "number counter",
+    "circle counter",
+    "bar counter",
+    "line counter"
+  ],
+  "example": {},
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-animate-style",
+    "ablocks-common-style",
+    "file:./style.css"
+  ],
+  "editorScript": [
+    "ablocks-common-script",
+    "file:./view.js"
+  ]
+}

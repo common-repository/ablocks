@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/heading",
+  "version": "0.1.0",
+  "title": "Heading",
+  "category": "ablocks",
+  "description": "Add customizable, impactful headings.",
+  "keywords": [
+    "ablocks",
+    "heading",
+    "headline",
+    "title",
+    "sub title"
+  ],
+  "example": {},
+  "supports": {
+    "html": true,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-animate-style",
+    "ablocks-common-style",
+    "file:./style.css"
+  ],
+  "editorScript": [
+    "ablocks-common-script"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/container",
+  "version": "0.1.0",
+  "title": "Container",
+  "category": "ablocks",
+  "description": "Create responsive, customizable layout containers.",
+  "keywords": [
+    "ablocks",
+    "container",
+    "grid",
+    "layout",
+    "section",
+    "content box"
+  ],
+  "example": {},
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-animate-style",
+    "ablocks-common-style",
+    "file:./style.css"
+  ],
+  "editorScript": [
+    "ablocks-common-script"
+  ]
+}

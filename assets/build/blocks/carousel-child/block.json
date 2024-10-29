@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/carousel-child",
+  "version": "0.1.0",
+  "title": "Carousel Child",
+  "category": "ablocks",
+  "description": "Make attractive image presentation with carousel",
+  "example": {},
+  "supports": {
+    "html": true,
+    "anchor": true
+  },
+  "parent": [
+    "ablocks/carousel"
+  ],
+  "textdomain": "ablocks",
+  "style": [
+    "file:./style.css"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/academy-certificate-text",
+  "version": "0.1.0",
+  "title": "Academy Certificate Text",
+  "category": "ablocks",
+  "description": "Academy Certificate Text",
+  "example": {},
+  "parent": [
+    "ablocks/academy-certificate"
+  ],
+  "supports": {
+    "html": true,
+    "anchor": true,
+    "reusable": false
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-animate-style",
+    "ablocks-common-style"
+  ],
+  "editorScript": [
+    "ablocks-common-script"
+  ]
+}

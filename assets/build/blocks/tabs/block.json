@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/tabs",
+  "version": "0.1.0",
+  "title": "Tabs",
+  "category": "ablocks",
+  "description": "Display content in tabbed sections.",
+  "keywords": [
+    "ablocks",
+    "tabs",
+    "tab",
+    "multi tab"
+  ],
+  "example": {},
+  "supports": {
+    "html": true,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-animate-style",
+    "ablocks-common-style",
+    "file:./style.css"
+  ],
+  "editorScript": [
+    "ablocks-common-script",
+    "file:./view.js"
+  ]
+}

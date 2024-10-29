@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/divider",
+  "version": "0.1.0",
+  "title": "Divider",
+  "category": "ablocks",
+  "description": "Add stylish content section dividers.",
+  "keywords": [
+    "ablocks",
+    "divider",
+    "line",
+    "section divider",
+    "separator"
+  ],
+  "example": {},
+  "supports": {
+    "html": true,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-animate-style",
+    "ablocks-common-style",
+    "file:./style.css"
+  ],
+  "editorScript": [
+    "ablocks-common-script"
+  ]
+}

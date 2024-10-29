@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/table-of-content",
+  "version": "0.1.0",
+  "title": "Table Of Content",
+  "category": "ablocks",
+  "description": "Easily organize your content for quick navigation.",
+  "example": {},
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-animate-style",
+    "ablocks-common-style",
+    "file:./style.css"
+  ],
+  "editorScript": [
+    "ablocks-common-script",
+    "file:./view.js"
+  ]
+}

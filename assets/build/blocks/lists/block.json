@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/lists",
+  "version": "0.1.0",
+  "title": "List",
+  "category": "ablocks",
+  "description": "Design customizable, organized lists.",
+  "keywords": [
+    "ablocks",
+    "lists",
+    "list",
+    "icon list",
+    "point"
+  ],
+  "example": {},
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-animate-style",
+    "ablocks-common-style",
+    "file:./style.css"
+  ],
+  "editorScript": [
+    "ablocks-common-script"
+  ]
+}

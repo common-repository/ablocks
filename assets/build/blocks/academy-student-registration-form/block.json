@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/academy-student-registration-form",
+  "version": "0.1.0",
+  "title": "Academy Student Registration Form",
+  "category": "academy",
+  "description": "Showcase Academy LMS Student Registration form attractively.",
+  "keywords": [
+    "ablocks",
+    "academy",
+    "academy lms",
+    "student",
+    "registration"
+  ],
+  "example": {},
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-animate-style",
+    "ablocks-common-style"
+  ],
+  "editorScript": [
+    "ablocks-common-script"
+  ]
+}

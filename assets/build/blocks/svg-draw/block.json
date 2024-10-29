@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/svg-draw",
+  "version": "0.1.0",
+  "title": "SVG Draw",
+  "category": "ablocks",
+  "description": "Add customizable, impactful SVG Draw.",
+  "keywords": [
+    "ablocks",
+    "svg-draw",
+    "svg",
+    "animate",
+    "icon"
+  ],
+  "example": {},
+  "supports": {
+    "html": true,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-animate-style",
+    "ablocks-common-style",
+    "file:./style.css"
+  ],
+  "editorScript": [
+    "ablocks-common-script"
+  ]
+}

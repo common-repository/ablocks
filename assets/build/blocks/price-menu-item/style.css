@@ -1,0 +1,21 @@
+.ablocks-price-menu-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ablocks-price-menu-item-details{
+    display: flex;
+    flex-direction: column;
+}
+
+h5,p{
+    margin: 0;
+}
+
+.ablocks-price-menu-item-separator{
+    width: 100px;
+    height: 2px;
+    /* margin-top: 12px; */
+    background-color: black;
+}
+

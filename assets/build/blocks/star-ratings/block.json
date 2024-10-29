@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/star-ratings",
+  "version": "0.1.0",
+  "title": "Star Ratings",
+  "category": "ablocks",
+  "description": "Display reviews with star ratings.",
+  "keywords": [
+    "ablocks",
+    "star-ratings",
+    "star-rating",
+    "reviews",
+    "review",
+    "feedback"
+  ],
+  "example": {},
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-animate-style",
+    "ablocks-common-style",
+    "file:./style.css"
+  ],
+  "editorScript": [
+    "ablocks-common-script"
+  ]
+}

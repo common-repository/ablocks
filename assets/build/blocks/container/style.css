@@ -1,0 +1,19 @@
+:not(.block-editor-block-list__block).ablocks-block--container--is-root.alignfull {
+    margin-left: calc(-50vw + 50%) !important;
+    margin-right: calc(-50vw + 50%) !important;
+    max-width: 100vw;
+    width: 100vw;
+}
+.ablocks-block--container {
+	box-sizing: border-box !important;
+	padding: var(--ablocks-container-padding);
+	max-width: min(100%, 100%);
+	width: 100%;
+}
+.ablocks-block--container--is-root {
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+:not(.block-editor-block-list__block).ablocks-block--container > .ablocks-block-container {
+	display: flex;
+}

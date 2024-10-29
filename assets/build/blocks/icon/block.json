@@ -1,0 +1,29 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/icon",
+  "version": "0.1.0",
+  "title": "Icon",
+  "category": "ablocks",
+  "description": "Enhance content with a diverse library of icons.",
+  "keywords": [
+    "ablocks",
+    "icon",
+    "symbol",
+    "image"
+  ],
+  "example": {},
+  "supports": {
+    "html": true,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-animate-style",
+    "ablocks-common-style",
+    "file:./style.css"
+  ],
+  "editorScript": [
+    "ablocks-common-script"
+  ]
+}

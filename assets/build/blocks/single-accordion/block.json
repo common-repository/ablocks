@@ -1,0 +1,25 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/single-accordion",
+  "version": "0.1.0",
+  "title": "Single Accordion",
+  "category": "ablocks",
+  "description": "Show Accordion Item",
+  "example": {},
+  "parent": [
+    "ablocks/accordion"
+  ],
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-animate-style",
+    "ablocks-common-style"
+  ],
+  "editorScript": [
+    "ablocks-common-script"
+  ]
+}

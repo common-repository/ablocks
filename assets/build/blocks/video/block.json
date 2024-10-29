@@ -1,0 +1,30 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/video",
+  "version": "0.1.0",
+  "title": "Video",
+  "category": "ablocks",
+  "description": " Embed responsive, customizable video.",
+  "keywords": [
+    "ablocks",
+    "video",
+    "youtube",
+    "vimeo",
+    "embedded"
+  ],
+  "example": {},
+  "supports": {
+    "html": true,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-animate-style",
+    "ablocks-common-style",
+    "file:./style.css"
+  ],
+  "editorScript": [
+    "ablocks-common-script"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/toggle",
+  "version": "0.1.0",
+  "title": "Toggle",
+  "category": "ablocks",
+  "description": "Create interactive toggle sections.",
+  "keywords": [
+    "ablocks",
+    "toggle",
+    "switch",
+    "switcher",
+    "Pricing Plan"
+  ],
+  "example": {},
+  "supports": {
+    "html": true,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-animate-style",
+    "ablocks-common-style",
+    "file:./style.css"
+  ],
+  "editorScript": [
+    "ablocks-common-script",
+    "file:./view.js"
+  ]
+}

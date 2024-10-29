@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/spacer",
+  "version": "0.1.0",
+  "title": "Spacer",
+  "category": "ablocks",
+  "description": "Easily add adjustable layout spacing.",
+  "keywords": [
+    "ablocks",
+    "spacer",
+    "empty",
+    "empty space",
+    "gap",
+    "margin",
+    "padding"
+  ],
+  "example": {},
+  "supports": {
+    "html": true,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-animate-style",
+    "ablocks-common-style",
+    "file:./style.css"
+  ],
+  "editorScript": [
+    "ablocks-common-script"
+  ]
+}

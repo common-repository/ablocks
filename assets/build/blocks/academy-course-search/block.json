@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "ablocks/academy-course-search",
+  "version": "0.1.0",
+  "title": "Academy Course Searchbar",
+  "category": "academy",
+  "description": "Course search bar for Academy LMS.",
+  "keywords": [
+    "ablocks",
+    "academy",
+    "academy lms",
+    "search"
+  ],
+  "example": {},
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "textdomain": "ablocks",
+  "editorStyle": [
+    "ablocks-animate-style",
+    "ablocks-common-style"
+  ],
+  "editorScript": [
+    "ablocks-common-script"
+  ]
+}
